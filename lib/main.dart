@@ -1,14 +1,16 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:multiproviderbloctesting/firebase_options.dart';
 import 'package:flutter/material.dart';
-import 'package:multiproviderbloctesting/views/home_page.dart';
+import 'package:multiproviderbloctesting/views/app.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  //ensure flutter app run before run function
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(
-    MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue
-      ),
-      home: const HomePage(),
-    ),
+     const App(),
   );
 }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "725460730804",
+    "project_id": "bloc-demo-image-app",
+    "storage_bucket": "bloc-demo-image-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725460730804:android:6473b93165b6856860e8e1",
+        "android_client_info": {
+          "package_name": "com.example.multiproviderbloctesting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725460730804-rb49r2cro43jdf9744e24t58h5gfu04p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw4eTjuGckYnuw6fnzLeCU_WH5NFYF2MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725460730804-rb49r2cro43jdf9744e24t58h5gfu04p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
